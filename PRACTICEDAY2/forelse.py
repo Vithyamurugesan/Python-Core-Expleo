@@ -8,3 +8,4 @@ for num in range(L,U+1):
                 break
         else:#for-else
             print(num)
+            
