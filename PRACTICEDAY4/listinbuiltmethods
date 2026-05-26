@@ -1,0 +1,66 @@
+#list
+t=list()
+print(t)
+vowel='aeiou'
+t=list(vowel)
+print(t)
+del t[2]
+print(t)
+del t
+list1=['Red','Colour','blue']
+for i in range(len(list1)):
+    print(list1[i])
+list2=[1,2,3]
+#print(list1+list2)
+list3=["haritha"]
+#extend
+list1.extend(list2)
+print(list1)
+#append
+list1.append(list2)
+print(list1)
+#insert
+list1.insert(2,3)
+print(list1)
+#count
+print(list1.count(3))
+print(list1)
+#index
+print("index:",list1.index(3))
+#remove
+list1.remove(3)
+print("removed:",list1)
+list1.remove(3)
+print("removed:",list1)
+#pop
+print("pop:",list1.pop())
+print("pop:",list1.pop(3))
+#sort
+list4=[2,2,3,4,5,1]
+list4.sort()
+print("sort:",list4)
+list4.sort(reverse=True)
+print("reverse sort:",list4)
+strlist=["haritha","dhanush","ravi","priya"]
+strlist.sort()
+print(strlist)
+strlist1=["haritha","dhanush","ravi","priya"]
+strlist1.sort(reverse=True)
+print(strlist1)
+#sorted
+list5=[1,3,4,2,6,4]
+list6=sorted(list5)
+print("list5:",list5)
+print("sorted from list5:",list6)
+
+#min #max #sum
+print("min:",min(list5))
+print("max;",max(list5))
+print("sum:",sum(list5))
+
+#clear
+list5.clear()
+print("cleared:",list5)
+#copy
+list7=list5.copy()
+print(list7)
