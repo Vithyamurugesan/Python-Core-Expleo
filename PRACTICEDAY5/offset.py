@@ -1,0 +1,6 @@
+fob=open("myfile.txt",'r+')
+str=fob.read()
+print(str)
+print("Initially,the position of the file object",fob.tell())
+fob.seek(0)
+print(fob.tell())
